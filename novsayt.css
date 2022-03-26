@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(pov2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 693px;
+}
+#img1 {
+    height: 60px;
+    margin-left: 30px;
+    position: absolute;
+}
+#h1 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+#h11 {
+    margin-top: 245px;
+    margin-left: 20px;
+    position: absolute;
+}
+#h2 {
+    margin-top: 340px;
+    margin-left: 20px;
+    position: absolute;
+}
+#h22 {
+    margin-top: 363px;
+    position: absolute;
+    margin-left: 20px;
+}
+#strb {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 380px;
+    padding: 30px;
+    width: 12%;
+    height: 95px;
+    border-radius: 5px;
+    border: none;
+    background-color: #45b813;
+    color: white;
+    cursor: pointer;
+}
+div {
+    margin-left: 900px;
+    margin-top: 30px;
+}
+#h3 {
+    position: absolute;
+    margin-top: 7px;
+    text-decoration: none;
+    color: black;
+}
+#plk {
+margin-left: 160px;
+padding: 10px;
+border-radius: 3px;
+border: none;
+cursor: pointer;
+background-color: #feb300;
+color: white;
+position: absolute;
+text-decoration: none;
+}
+form {
+    background-color: white;
+    width: 21%;
+    height: 410px;
+    margin-left: 950px;
+    margin-top: 115px;
+}
+#p {
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 40px;
+    text-align: center;
+}
+#in1 {
+    width: 99.3%;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+#legend {
+    margin-left: 83px;
+}
+#legend1 {
+    margin-left: 65px;
+}
+#in2 {
+    width: 99%;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+#f1 {
+    width: 75%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#f2 {
+    width: 75%;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+#osz {
+    background-color: #fdb304;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin-left: 30px;
+    width: 230px;
+    margin-top: 20px;
+}
+#pp {
+    font-size: 12px;
+    width: 60%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 55px;
+    color: #858583;
+}

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body form .p {
+  margin-bottom: 15px;
+}
+
+body form pre {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+body form button {
+  padding-right: 63px;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  width: 152px;
+  border-radius: 8px;
+  background-color: white;
+  border: solid grey 1px;
+  color: #0d6efd;
+}
+
+body form button i {
+  margin-right: 8px;
+  margin-left: 9px;
+}
+
+body form button .fa-plus-circle {
+  margin-left: 0px;
+}
+
+body form button:hover {
+  background-color: #81d5fa;
+  border: solid blue 2px;
+  cursor: pointer;
+  color: white;
+}
+
+body form input {
+  padding: 10px;
+  width: 286px;
+  border-radius: 7px;
+  border: solid grey 1px;
+  margin-top: 10px;
+}
+
+body form .divin {
+  margin-top: 10px;
+  text-align: center;
+}
+
+body form .divin a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+body form .divin button {
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 13px;
+  width: 310px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=form22.css.map */

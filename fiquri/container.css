@@ -1,0 +1,73 @@
+#container {
+    height: 80vh;
+    text-align: center;
+    margin-top: 60px;
+    color: white
+}
+
+h2{
+    font-size: 44px;
+}
+strong{
+    font-size: 80px;
+    font-weight: 900;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 24px;
+}
+#btns{
+    margin-top: 50px;
+}
+#btns button{
+    height: 48px;
+    width: 130px;
+    cursor: pointer;
+    border: 1px solid grey;
+    color: white;
+    font-size: 20px;
+    background-color: inherit;
+}
+#btn1{
+    background-image: linear-gradient(to bottom, #2faaab 0, #227a7b 100%);
+}
+#btn2{
+    background-image: linear-gradient(to bottom, #f42257 0, #cf0a3c 100%);
+
+}
+#btn1:hover, #btn2:hover{
+    transition: 0.2s !important;
+    background-image: inherit !important;
+}
+#btn11 {
+margin-right: 20px;
+background-image: linear-gradient(to bottom,rgb(226, 206, 206) 100%);
+padding: 10px 15px 10px 15px;
+} 
+#btn22 {
+    margin-right: 20px;
+    background-image: linear-gradient(to bottom, rgb(226, 206, 206) 100%);
+    padding: 10px 15px 10px 15px;
+    } 
+ #btn33 {
+        margin-right: 20px;
+        background-image: linear-gradient(to bottom,  rgb(226, 206, 206) 100%);
+        padding: 10px 15px 10px 15px;
+    } 
+ #btn44 {
+            margin-right: 20px;
+            background-image: linear-gradient(to bottom, rgb(226, 206, 206)  100%);
+            padding: 10px 15px 10px 15px;
+   } 
+ #btn55 {
+         margin-right: 20px;
+         background-image: linear-gradient(to bottom,  rgb(226, 206, 206) 100%);
+         padding: 10px 15px 10px 15px;
+  } 
+  #btn66 {
+    margin-right: 20px;
+    background-image: linear-gradient(to bottom,  rgb(226, 206, 206) 100%);
+    padding: 10px 15px 10px 15px;
+} 

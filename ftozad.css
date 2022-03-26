@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#w2 {
+    background: transparent;
+    border: none;
+            border-bottom: solid 7px;
+            width: 200px;
+            outline: none;
+}
+#temper {
+            padding: 10px;
+            background-color: #ffa580;
+            box-shadow: 4px 4px rgb(108, 164, 192);
+            width: 50%;
+}
+#wert {
+    background-color: #f7f4e5;
+    margin-left: 500px;
+    margin-top: 180px;
+    width: 250px;
+    padding: 50px;
+}
+#wert1 {
+   text-align: center;
+}

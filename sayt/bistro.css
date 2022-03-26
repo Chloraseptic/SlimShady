@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e3e3e1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body h1 {
+  background-color: #999999;
+  color: white;
+  width: 350px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 5px;
+}
+
+body .div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .div li {
+  padding: 5px;
+  width: 150px;
+  color: #624b67;
+}
+
+body .div .l2:hover {
+  background-color: #a27eae;
+  color: white;
+  border-radius: 3px;
+}
+
+body .div .ul1 {
+  list-style-type: none;
+}
+
+body .div .ul1 .l1 {
+  color: black;
+  font-size: 15px;
+}
+
+body .div .ul1 .l3 {
+  color: #624b67;
+}
+
+body .div .ul1 .l3:hover {
+  background-color: #a27eae;
+  color: white;
+  border-radius: 3px;
+}
+
+body .div .ul2 {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+body .div .ul2 .l7 {
+  font-size: 15px;
+  color: black;
+}
+
+body .div .ul2 .l5 .fa-question {
+  background-color: #684772;
+  padding: 3px;
+  font-size: 12px;
+  border-radius: 6px;
+  margin-left: 43px;
+  color: white;
+}
+/*# sourceMappingURL=bistro.css.map */

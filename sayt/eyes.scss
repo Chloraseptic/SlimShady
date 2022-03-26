@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+   background: url(http://pix.com.ua/db/nature/trees_leaves/leaves/m-001_099.jpg);
+    height: 100vh;
+    background-size: 50%;
+    background-position: center;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container-fluid {
+        padding: 30px;
+        width: 650px;
+        background-color: white;
+        input {
+            width: 280px;
+            border: solid rgb(179, 179, 179) 1px;
+            border-radius: 2px;
+        }
+        p {
+        text-align: center;
+        }
+        .r4 {
+           input {
+               width: 580px;
+           }
+        }
+        .r5 {
+                display: flex;
+                justify-content: right;
+                button {
+                    background-color: blue;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    padding: 5px;
+                    width: 280px;
+                    margin-top: 10px;
+                }
+        }
+    }
+}

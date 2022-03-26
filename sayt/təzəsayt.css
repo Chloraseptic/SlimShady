@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e09812), to(rgba(255, 2, 255, 0.5)));
+  background: linear-gradient(#e09812, rgba(255, 2, 255, 0.5));
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .mama {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  width: 330px;
+  height: 7px;
+  position: absolute;
+  margin-bottom: 450px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .mama div {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: white;
+}
+
+body .mama .div1 {
+  margin-right: 120px;
+  background-color: #27ae61;
+  color: white;
+}
+
+body .mama .div2 {
+  margin-right: 120px;
+}
+
+body .div11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  margin-bottom: 385px;
+  margin-left: 82px;
+}
+
+body .div11 p {
+  color: white;
+  font-size: 10px;
+  margin-right: 70px;
+}
+
+body .form1 {
+  text-align: center;
+  background-color: white;
+  width: 330px;
+  height: 45%;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+          box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+}
+
+body .form1 h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+body .form1 input {
+  padding: 12px;
+  margin-top: 10px;
+  width: 230px;
+  border: solid grey 1px;
+  outline: none;
+}
+
+body .form1 .a {
+  background: #27ae61;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-decoration: none;
+}
+
+body .mama1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  width: 330px;
+  height: 7px;
+  position: absolute;
+  margin-bottom: 450px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .mama1 .diver {
+  background-color: #27ae61;
+  height: 7px;
+  margin-right: 20px;
+  width: 130px;
+  position: absolute;
+  margin-left: 20px;
+}
+
+body .mama1 .div1 {
+  background-color: #27ae61;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+body .mama1 .div2 {
+  background-color: #27ae61;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 116px;
+}
+
+body .mama1 .div3 {
+  margin-left: 120px;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+body .mama2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #27ae61;
+  width: 330px;
+  height: 7px;
+  position: absolute;
+  margin-bottom: 450px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .mama2 div {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: white;
+}
+
+body .mama2 .div1 {
+  margin-right: 120px;
+  background-color: #27ae61;
+  color: white;
+}
+
+body .mama2 .div2 {
+  margin-right: 120px;
+  background-color: #27ae61;
+  color: white;
+}
+
+body .mama2 .div3 {
+  background-color: #27ae61;
+  color: white;
+}
+
+body .form2 {
+  text-align: center;
+  background-color: white;
+  width: 330px;
+  height: 48%;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+          box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+}
+
+body .form2 h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+body .form2 input {
+  padding: 12px;
+  margin-top: 10px;
+  width: 230px;
+  border: solid grey 1px;
+  outline: none;
+}
+
+body .form2 button {
+  background: #27ae61;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 15px;
+  width: 100px;
+}
+
+body .form2 a {
+  padding: 8px;
+  text-decoration: none;
+  background-color: #27ae61;
+  color: white;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 11px;
+}
+
+body .form3 {
+  text-align: center;
+  background-color: white;
+  width: 330px;
+  height: 55%;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+          box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+}
+
+body .form3 h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+body .form3 input {
+  padding: 12px;
+  margin-top: 10px;
+  width: 230px;
+  border: solid grey 1px;
+  outline: none;
+}
+
+body .form3 button {
+  background: #27ae61;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 15px;
+  width: 100px;
+}
+
+body .form3 textarea {
+  width: 236px;
+  padding: 10px;
+  height: 60px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=təzəsayt.css.map */

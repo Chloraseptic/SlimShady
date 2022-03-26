@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div{
+    background-color: rgb(128, 123, 123);
+    padding: 15px;
+    } 
+#tip{
+    height: 100vh;
+width: 100vw;
+position: relative;
+}
+#yut{
+    margin-top: 0px;
+    margin-left: 100px;
+    height: 55px;
+    width: 30%;
+    
+}
+.div1{
+    position: absolute;
+}
+#ert{
+    margin-left: 110px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.divv{
+    position: absolute;  
+}
+#tuy{
+    margin-top: 280px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+#ert1{
+    margin-top: 20px;
+    margin-left: 190px;
+    cursor: pointer;
+}
+#ert2{
+    margin-top: 20px;
+    margin-left: 270px;
+    cursor: pointer;
+}
+#ert3{
+    margin-top: 20px;
+    margin-left: 360px;
+    cursor: pointer;
+}
+#ert4{
+    margin-top: 20px;
+    margin-left: 410px;
+    cursor: pointer;
+}

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 580px;
+        padding: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.782);
+        height: 330px;
+        img {
+            height: 330px;
+            width: 400px;
+        }
+        .container {
+            label {
+                font-size: 12px;
+            }
+            input {
+                padding: 3px;
+                outline: none;
+            }
+            .r0 {
+                .fa-facebook-f {
+                    margin-top: 13px;
+                    color: grey;
+                    margin-right: 10px;
+                    margin-left: 70px;
+                   font-size: 12px;
+                }
+                .fa-twitter {
+                    color: grey;
+                    font-size: 12px;
+                    margin-top: 13px;
+                    
+                }
+            }
+            .r1 {
+                input {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            }
+            .r2 {
+                input {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            }
+            .r3 {
+                button {
+                    background-color: #e2b34b;
+                    color: white;
+                    border: none;
+                    cursor: pointer;
+                    width: 100%;
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+            }
+            .r4 {
+                margin-top: 10px;
+                label {
+                    color: #e2b34b;
+                    font-size: 14px;
+                }
+                a{
+                    text-decoration: none;
+                    font-size: 15px;
+                    color: grey;
+                }
+            }
+            .r5 {
+                text-align: center;
+                margin-top: 10px;
+
+                .a1 {
+                    text-decoration: none;
+                    color: grey;
+                    font-size: 13px;
+                }
+                .a2 {
+                    text-decoration: none;
+                    color: #e2b34b;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

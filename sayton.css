@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#div1 {
+    background-color: #05051f;
+    padding: 7px;
+}
+#i1 {
+    margin-left: 110px;
+    margin-top: 2px;
+    position: absolute;
+}
+#i2 {
+    position: absolute;
+    margin-left: 790px;
+    color: white;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+#a1{
+    text-decoration: none;
+    color: white;
+    background-color: #184391;
+    padding: 10.5px;
+    padding-left: 40px;
+    border: none;
+    margin-left: 100px;
+}
+#a2 {
+    text-decoration: none;
+    color: white;
+    padding: 9px;
+}
+#a2:hover {
+    color: blue;
+}
+#i3 {
+    color: white;
+    margin-left: 25px;
+    font-size: 20px;
+}
+#i3:hover {
+    color: blue;
+}
+#i4 {
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+}
+#i4:hover {
+    color: red;
+}
+#i5{
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+}
+#i5:hover {
+    color: rgb(0, 132, 255);
+}
+#in1 {
+    border: none;
+    border-bottom: solid grey;
+    background-color: transparent;
+    margin-left: 650px;
+}
+#a11 {
+    text-decoration: none;
+    color: grey;
+    padding: 17px;
+    margin-left: 30px;
+}
+#a11:hover {
+border-top: solid blue;
+}
+#a111 {
+    text-decoration: none;
+    color: grey ;
+    padding: 17px;
+    margin-left: 100px;
+}
+#a111:hover {
+    border-top: solid blue;
+}
+#div2 {
+    background-color: #04101c;
+}
+#img1 {
+    width: 51%;
+    margin-left: 110px;
+    position: absolute;
+}
+#img1:hover {
+    box-shadow: 1px 1px 5px 5px white;
+    transition: 0.3s;
+}
+#img2 {
+    width: 120%;
+    height: 263px;
+}
+#img2:hover {
+    box-shadow: 1px 1px 5px 5px white;
+    transition: 0.3s;
+}
+#img3 {
+    width: 120%;
+    height: 236px;
+}
+#img3:hover {
+    box-shadow: 1px 1px 5px 5px white;
+    transition: 0.3s;
+}
+#div3 {
+    display: inline-block;
+    margin-left: 866px;
+}
+#h1 {
+    color: white;
+    margin-left: 130px;
+    margin-top: 410px;
+    position: absolute;
+    z-index: 999;
+    font-size: 40px;
+}
+#bt1 {
+    background-color: #007bfd;
+    border: none;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+#wt {
+    display: flex;
+}
+#h31 {
+    color: white;
+    display: inline-block;
+}
+#div11 {
+    margin-left: 130px;
+    margin-top: 460px;
+    z-index: 999;
+    position: absolute;
+}
+#h32 {
+    position: absolute;
+    margin-top: 20px;
+}
+#div12 {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 15px;
+}
+#div13 {
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 15px;
+}
+#h2 {
+    color: white;
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 15px;
+}
+#h3 {
+    color: white;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 175px;
+}
+#bl {
+    margin-left: 5px;
+}
+#diver {
+      margin-left: 110px;
+      margin-top: 80px;
+      display: flex;
+}
+#im1 {
+   
+    width: 150%;
+    height: 200px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+}
+#im2 {
+   
+    width: 105%;
+    height: 200px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+}
+#im3 {
+    
+    width: 170%;
+    height: 200px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+}
+#im4 {
+   
+    width: 110%;
+    height: 200px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+}
+#diver1 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+#diver2 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+#diver3 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+#diver4 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+#h55 {
+    color: white;
+}
+#diver11 {
+    width: 14.5%;
+    display: inline-block;
+}
+#diver11:hover {
+    box-shadow: none;
+    transition: 0.3s;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    opacity: 0.98;
+}
+
+#diver12 {
+    display: inline-block;
+    margin-left: 97px;
+}
+#diver12:hover {
+    transition: 0.3s;
+    box-shadow: none;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    opacity: 0.98;
+}
+#diver13 {
+    display: inline-block;
+    margin-left: 12px;
+}
+#diver13:hover {
+    transition: 0.3s;
+    box-shadow: none;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    opacity: 0.98;
+}
+#diver14 {
+    display: inline-block;
+    margin-left: 137px;
+}
+#diver14:hover {
+    transition: 0.3s;
+    box-shadow: none;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    opacity: 0.98;
+}
+#divm {
+    background-color: #0b0b3b;
+    height: 400px;
+    display: flex;
+}
+#divm1 {
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 18%;
+}
+#divm2 {
+    color: white;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 40px;
+    width: 18%;
+}
+#divm3 {
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 18%;
+}
+#divm4 {
+    color: white;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 40px;
+     width: 18%;
+}
+.divm .divm2 p:hover {
+    color: blue;
+}
+h6 {
+    color: gray;
+}
+p {
+    color: rgb(201, 201, 201);
+}
+#divl {
+    display: flex;
+}
+#l11 {
+    margin-left: 165px;
+    color: grey
+}
+#l8 {
+    margin-left: 189px;
+    color: grey;
+}
+#l9 {
+    margin-left: 187px;
+    color: grey;
+}
+#l15 {
+    margin-left: 164px;
+    color: grey;
+}
+.divm .divm3 p:hover {
+  color: blue;
+}
+#man {
+    display: flex;
+}
+#man1 {
+    display: flex;
+}
+#man2 {
+    display: flex;
+}
+#ii {
+    position: absolute;
+}
+#n {
+    color: grey;
+}
+#ii {
+    margin-left: 77.7%;
+    margin-top: 175px;
+}
+#i33 {
+    color: rgb(26, 26, 248);
+    font-size: 25px;
+}
+#i44 {
+    font-size: 25px;
+    color: rgb(255, 44, 44);
+}
+#i55 {
+font-size: 25px;
+color: red;
+}
+.novdiv {
+    display: flex;
+    background-color: #040427;
+    height: 50px;
+}
+.novdiv h3 {
+    margin-top: 13px;
+    margin-left: 10px;
+    color: white;
+}
+.novdiv i {
+    color: white;
+    margin-left: 90px;
+    margin-top: 16px;
+}
+.novdiv a {
+    margin-top: 1px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.novdiv a:hover {
+    background-color: black;
+}
+#aa1 {
+    margin-left: 700px;
+}

@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ffc466;
+}
+form {
+background-color: #439db7;
+width: 20%;
+height: 165px;
+border-radius: 20px;
+margin-left: 550px;
+margin-top: 200px;
+}
+h2 {
+    color: #91cfda;
+    margin-left: 10px;
+}
+hr {
+    width: 19%;
+    margin-left: 5px;
+    position: absolute;
+    border: none;
+    border: solid grey 1px;
+}
+form .div {
+    display: flex;
+    position: absolute;
+}
+.div1 {
+    margin-right: 30px;
+    margin-left: 10px;
+}
+select {
+    width: 80%;
+    height: 30px;
+    background-color: #6db0c3;
+    border: none;
+}
+h4 {
+    color: #49acca;
+}
+input {
+    width: 13%;
+    margin-right: 18px;
+    padding: 4px;
+    padding-top: 6px;
+    background-color: #84b6c7;
+    border: none;
+    outline: none;
+}
+
+.diver {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#h3 {
+    margin-top: 50px;
+    margin-left: 10px;
+    color: #91cfda;
+    position: absolute;
+}
+::placeholder {
+    color: rgb(219, 219, 219);
+    font-size: 16px;
+}
+.in {
+    margin-left: 12px;
+}
+#id {
+    margin-left: 10px;
+}
+#img {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 7px;
+}
+button {
+    background-color: #f27478;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+    margin-left: 660px;
+    margin-top: 15px;
+    cursor: pointer;
+}

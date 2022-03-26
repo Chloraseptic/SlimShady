@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
+  min-height: 100vh;
+}
+
+.c1 > .r1 {
+  height: 50vh;
+}
+
+.c1 > .r1 > div {
+  height: 100%;
+  background-color: blue;
+  border: 5px solid white;
+  color: white;
+}
+
+.c1 > .r1 > div:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c1 > .r1 > div > .row:nth-child(1) {
+  height: 15vh;
+}
+
+.c1 > .r1 > div > .row:nth-child(2) {
+  height: 35vh;
+}
+
+.c1 > .r1 > div > .row > div {
+  border: 5px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c1 > .r1 > div > .row > div:nth-child(1) {
+  border-top: 0;
+}
+
+.c1 .r2 {
+  height: 25vh;
+}
+
+.c1 .r2 > div {
+  height: 100%;
+  border: 5px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background-color: blue;
+}
+/*# sourceMappingURL=bot.css.map */

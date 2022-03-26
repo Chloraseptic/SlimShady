@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.c1 {
+    min-height: 100vh;
+    &>.r1 {
+       height: 50vh;
+       &>div {
+           height: 100%;
+           background-color: blue;
+           border: 5px solid white;
+           color: white;
+           &:nth-child(1) {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+           }
+           &>.row {
+               &:nth-child(1) {
+                   height: 15vh;
+               }
+               &:nth-child(2) {
+                   height: 35vh;
+               }
+               &>div {
+                   border: 5px solid white;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   &:nth-child(1) {
+                       border-top: 0;
+                   }
+               }
+           }
+       }
+    }
+    .r2 {
+        height: 25vh;
+        &>div {
+            height: 100%;
+            border: 5px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: blue;
+        }
+    }
+}

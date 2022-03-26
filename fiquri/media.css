@@ -1,0 +1,13 @@
+@media (min-width:300px) and (max-width:750px){
+    #firstDiv #header #bars:hover {
+        color: red;
+    }
+    #firstDiv{
+        margin-bottom: 150px;
+    }
+}
+@media screen and (max-height:350px){
+    #firstDiv{
+        margin-bottom: 300px;
+    }
+}

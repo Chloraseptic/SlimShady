@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div{
+    background-color: rgb(87, 83, 83);
+}
+#div1 {
+background-image: url(https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+width: 100px;
+height: 100px;
+position: sticky;
+top: 100px;
+left: 10px;
+}
+#div2 {
+    margin-left: 120px;
+    }

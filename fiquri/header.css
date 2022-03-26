@@ -1,0 +1,23 @@
+#header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#firstDiv #header a img {
+    height: 52px;
+    width: 260px;
+    margin-left: 60px;
+
+}
+#firstDiv #header #bars {
+    font-size: 38px;
+    margin-right: 60px;
+} 
+#firstDiv #header #bars:hover{
+    transition: 0.1s;
+     color: #fff;
+}
+

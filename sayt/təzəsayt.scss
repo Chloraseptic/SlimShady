@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(rgb(224, 152, 18), rgba(255, 2, 255, 0.5)) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .mama {
+        display: flex;
+        background-color: white;
+        width: 330px;
+        height: 7px;
+        position: absolute;
+        margin-bottom: 450px;
+        align-items: center;
+        div {
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 12px;
+            padding-right: 12px;
+            background-color: white;
+        }
+        .div1 {
+            margin-right:120px;
+            background-color: #27ae61;
+            color: white;
+
+        }
+        .div2 {
+            margin-right: 120px;
+        }
+    }
+    .div11 {
+        display: flex;
+        position: absolute;
+        margin-bottom: 385px;
+        margin-left: 82px;
+        p {
+            color: white;
+            font-size: 10px;
+            margin-right: 70px;
+            
+        }
+    }
+.form1 {
+    h3 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    text-align: center;
+    background-color: white;
+    width: 330px;
+    height: 45%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+    input {
+    padding: 12px;
+    margin-top: 10px;
+    width: 230px;
+    border: solid grey 1px;
+    outline: none;
+    }
+    .a {
+        background: #27ae61;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        text-decoration: none;
+    }
+   }
+   .mama1 {
+    display: flex;
+    background-color: white;
+    width: 330px;
+    height: 7px;
+    position: absolute;
+    margin-bottom: 450px;
+    align-items: center;
+    .diver {
+        background-color: #27ae61;
+        height: 7px;
+        margin-right: 20px;
+        width: 130px;
+        position: absolute;
+        margin-left: 20px;
+    }
+
+    .div1 {
+        background-color: #27ae61;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+
+    }
+    .div2 {
+        background-color: #27ae61;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-left: 116px;
+    }
+    .div3 {
+       margin-left: 120px;
+        background-color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+   .mama2 {
+    display: flex;
+    background-color: #27ae61;
+    width: 330px;
+    height: 7px;
+    position: absolute;
+    margin-bottom: 450px;
+    align-items: center;
+    div {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+        background-color: white;
+    }
+    .div1 {
+        margin-right:120px;
+        background-color: #27ae61;
+        color: white;
+
+    }
+    .div2 {
+        margin-right: 120px;
+        background-color: #27ae61;
+        color: white;
+    }
+    .div3 {
+        background-color: #27ae61;
+        color: white;
+    }
+   }
+   .form2 {
+    h3 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        
+    }
+    text-align: center;
+    background-color: white;
+    width: 330px;
+    height: 48%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+    input {
+    padding: 12px;
+    margin-top: 10px;
+    width: 230px;
+    border: solid grey 1px;
+    outline: none;
+    }
+    button {
+        background: #27ae61;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        margin-top: 15px;
+        width: 100px;
+       }
+    a {
+        padding: 8px;
+        text-decoration: none;
+        background-color: #27ae61;
+        color: white;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 11px;
+    }
+     }
+     
+     .form3 {
+        h3 {
+            margin-top: 15px;
+            margin-bottom: 10px;
+            
+        }
+        text-align: center;
+        background-color: white;
+        width: 330px;
+        height: 55%;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+        input {
+        padding: 12px;
+        margin-top: 10px;
+        width: 230px;
+        border: solid grey 1px;
+        outline: none;
+        }
+        button {
+            background: #27ae61;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            margin-top: 15px;
+            width: 100px;
+           }
+        textarea {
+          width: 236px; 
+          padding: 10px; 
+          height: 60px;
+          margin-top: 10px;
+        }   
+     }
+   }

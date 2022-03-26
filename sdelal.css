@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(212, 108, 126);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+h2 {
+    color: rgb(238, 54, 85);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+form {
+    margin-top: 160px;
+    background-color: white;
+    width: 23%;
+    height: 300px;
+    border-radius: 10px;
+}
+#w2 {
+    width: 82%;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    border: solid 1px;
+    border-color: gray;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+input:active {
+   border-color: solid red 2px;
+}
+#w3 {
+    width: 82%;
+    padding: 8px; 
+     border-radius: 3px;
+     border: none;
+    border: solid 1px;
+    border-color: gray;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+#w1 {
+    width: 82%;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    border: solid 1px;
+    border-color: gray;
+    margin-left: 12px;
+}
+button {
+    padding: 10px;
+    width: 87%;
+    border-radius: 5px;
+    margin-left: 12px;
+    
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(209,17,92,1) 35%);
+    color: white;
+    border: none;
+}
+button:hover {
+    box-shadow: 1px 1px 1px 1px rgb(212, 108, 126);
+    background-color: black;
+    cursor: pointer;
+}
+input:focus{
+    border: 1px solid red;
+}
+#w1 :hover {
+    border: solid 5px;
+    border-color: red;
+} 
+#ww {
+    position: absolute;
+    margin-left: 255px;
+    margin-top: 65px;
+}
+#ww1 {
+    position: absolute;
+    margin-left: 255px;
+    margin-top: 145px;
+}
+#ww2 {
+    position: absolute;
+    margin-left: 255px;
+    margin-top: 225px;
+
+}

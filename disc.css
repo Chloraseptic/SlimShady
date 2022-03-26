@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 580px;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.782);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.782);
+  height: 330px;
+}
+
+body form img {
+  height: 330px;
+  width: 400px;
+}
+
+body form .container label {
+  font-size: 12px;
+}
+
+body form .container input {
+  padding: 3px;
+  outline: none;
+}
+
+body form .container .r0 .fa-facebook-f {
+  margin-top: 13px;
+  color: grey;
+  margin-right: 10px;
+  margin-left: 70px;
+  font-size: 12px;
+}
+
+body form .container .r0 .fa-twitter {
+  color: grey;
+  font-size: 12px;
+  margin-top: 13px;
+}
+
+body form .container .r1 input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+body form .container .r2 input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+body form .container .r3 button {
+  background-color: #e2b34b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+body form .container .r4 {
+  margin-top: 10px;
+}
+
+body form .container .r4 label {
+  color: #e2b34b;
+  font-size: 14px;
+}
+
+body form .container .r4 a {
+  text-decoration: none;
+  font-size: 15px;
+  color: grey;
+}
+
+body form .container .r5 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+body form .container .r5 .a1 {
+  text-decoration: none;
+  color: grey;
+  font-size: 13px;
+}
+
+body form .container .r5 .a2 {
+  text-decoration: none;
+  color: #e2b34b;
+  font-size: 13px;
+}
+/*# sourceMappingURL=disc.css.map */

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form {
+    margin-left: 40%;
+    margin-top: 15%;
+    text-align: center;
+    background-color: #3d363e;
+    width: 250px;
+    height: 220px;
+}
+.wq {
+    background: transparent;
+    border: none;
+            border-bottom: solid 1px;
+            width: 210px;
+            outline: none;
+}
+
+.tur {
+    cursor: pointer;
+    padding: 10px;
+    width: 90%;
+    border-radius: 3px;
+    background-color: #e14435;
+    color: white;
+}

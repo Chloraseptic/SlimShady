@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body form {
+  width: 600px;
+}
+
+body form .container img {
+  height: 100%;
+  width: 130%;
+}
+
+body form .container button {
+  color: white;
+  border: none;
+  padding: 7px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+body form .container input {
+  padding: 12px;
+  width: 275px;
+  outline: none;
+}
+
+body form .container .r1 pre {
+  font-size: 12px;
+  color: grey;
+}
+
+body form .container .r4 input {
+  width: 12px;
+}
+
+body form .container .r4 a {
+  color: grey;
+}
+
+body form .container .r4 p {
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+body form .container .r4 a {
+  margin-left: 51px;
+  font-size: 10px;
+}
+
+body form .container .r5 button {
+  background-color: #0179ff;
+  color: white;
+  border: none;
+  padding: 7px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+body form .container .r6 {
+  margin-top: 12px;
+  text-align: center;
+}
+
+body form .container .r7 i {
+  margin-right: 5px;
+}
+
+body form .container .r7 button {
+  background-color: #3a5999;
+}
+
+body form .container .r8 {
+  margin-top: 5px;
+}
+
+body form .container .r8 i {
+  margin-right: 5px;
+}
+
+body form .container .r8 button {
+  background-color: #1da1f3;
+}
+
+body form .container .r9 {
+  margin-top: 5px;
+}
+
+body form .container .r9 i {
+  margin-right: 5px;
+}
+
+body form .container .r9 button {
+  background-color: #eb4336;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form {
+    background-color: rgb(228, 224, 224);
+    margin-left: auto;
+    margin-top: 140px;
+    margin-right: auto;
+    width: 22%;
+    border: solid;
+    padding: 30px;
+}
+form h2 {
+   text-align: center; 
+}
+form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px;
+    outline: none;
+    
+}
+#in3 {
+    width: 328px;  
+    outline: none;
+}
+#in4 {
+    width: 326px;
+    outline: none;
+}
+#in5 {
+    border: none;
+    border-bottom: solid 2px;
+    outline: none;
+}
+textarea {
+    background-color: transparent;
+}
+button {
+    margin-top: 10px;
+    background-color: transparent;
+    padding: 7px;
+}
+#i3 {
+    margin-left: 145px;
+    font-size: 22px;
+    border-top: solid 2px;
+    padding: 10px;
+}
+#i1 {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 40px;
+    font-size: 12px;
+}
+#i2 {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 276px;
+    font-size: 12px;
+}
+#i4 {
+    position: absolute;
+    margin-left: 307px;
+}
+

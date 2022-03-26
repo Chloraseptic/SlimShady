@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0078ff), to(#00c1ff));
+  background: linear-gradient(#0078ff, #00c1ff);
+}
+
+body .fa-rocket {
+  position: absolute;
+  margin-bottom: 400px;
+  font-size: 40px;
+  color: #0563d2;
+  background-color: white;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+body form {
+  background-color: white;
+  width: 50%;
+  padding: 20px;
+  height: 50%;
+  text-align: center;
+}
+
+body form h2 {
+  color: #0078ff;
+}
+
+body form .div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+body form .div input {
+  padding: 6px;
+  border-radius: 10px;
+  border: solid grey 1px;
+  width: 300px;
+  margin-top: 15px;
+}
+
+body form .div button {
+  background-color: #ff323f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 10px;
+  width: 130px;
+  margin-right: 180px;
+  margin-top: 15px;
+}
+
+body form .div .div2 textarea {
+  margin-top: 15px;
+  border-radius: 10px;
+  height: 100px;
+  width: 200px;
+  margin-left: 25px;
+  padding: 10px;
+}
+/*# sourceMappingURL=form33.css.map */

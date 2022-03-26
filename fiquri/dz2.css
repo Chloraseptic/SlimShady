@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#btnDiv{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+.btn{
+    background-color: rgb(66, 64, 64);
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 7px 9px 7px 9px;
+}
+#yellow{
+    background-color: orangered;
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blue;
+   
+}
+form {
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: #328fdf;
+    width: 16.65%;
+    box-shadow: 5px 5px rgb(2, 2, 129);
+}
+ div {
+   
+    background-color: lightblue;
+    width: 16.65%;
+}
+#w3 {
+    background-color: rgb(97, 204, 240);
+    border: none;
+    outline: none;
+    width: 89%;
+    padding: 10px;
+    margin-left: 5px;
+}
+#w4 {
+    width: 155px;
+    background-color: rgb(97, 204, 240);
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-left: 5px;
+}
+#w5 {
+    width: 42px;
+    padding: 10px;
+    background-color: rgb(97, 204, 240);
+    border: none;
+    outline: none;
+
+}
+button {
+    background-color: rgb(54, 163, 54);
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}

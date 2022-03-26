@@ -1,0 +1,21 @@
+#line{
+    display: flex;
+    justify-content: center;
+margin-top: 50px;
+
+}
+#line div{
+    height: 247px;
+    width: 380px;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+#line div i{
+    font-size: 60px;
+}
+#line div h3{
+    font-weight: 600;
+}
+#line div p{
+    font-size: 18px;
+}

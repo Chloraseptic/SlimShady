@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form {
+        width: 500px;
+        display: grid;
+    h1 {
+        text-align: center;
+        padding: 15px;
+        color: purple;
+    }
+    .div1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .div2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .mess {
+        width: 99%;
+    }
+        input {
+            border: none;
+            border-bottom: solid grey;
+            width: 60%;
+            padding: 20px 5px;
+            outline: none;
+        }
+    button {
+        width: 25%;
+        height: 25px;
+        background: linear-gradient(purple, blue);
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+  }
+}

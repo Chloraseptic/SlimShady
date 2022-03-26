@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#151132), to(#2f2a60));
+  background: linear-gradient(#151132, #2f2a60);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body form {
+  position: relative;
+  overflow: hidden;
+  background-color: #271558;
+  border-radius: 20px;
+  height: 430px;
+  width: 320px;
+  -webkit-box-shadow: 0 0 30px black;
+          box-shadow: 0 0 30px black;
+}
+
+body form h1 {
+  color: white;
+  text-align: center;
+}
+
+body form input {
+  margin-left: 36px;
+  border-radius: 7px;
+  height: 30px;
+  width: 75%;
+  padding: 5px;
+  outline: none;
+}
+
+body form button {
+  width: 70%;
+  height: 40px;
+  background-color: #573a8a;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin-left: 52px;
+}
+
+body form a {
+  padding-left: 140px;
+  padding-right: 143px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  color: #5c4476;
+  background-color: white;
+  border-radius: 45%;
+}
+/*# sourceMappingURL=luga.css.map */

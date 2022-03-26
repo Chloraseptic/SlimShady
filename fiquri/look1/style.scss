@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    form {
+        width: 600px;
+        .container {
+            img {
+                height: 100%;
+                width: 130%;
+            }
+            button {
+                color: white;
+                border: none;
+                padding: 7px;
+                width: 100%;
+                border-radius: 5px;
+            }
+            input {
+                padding: 12px;
+                width: 275px;
+                outline: none;
+            }
+            .r1{
+                pre{
+                    font-size: 12px;
+                    color: grey;
+                }
+            }
+            .r4 {
+                input {
+                    width: 12px;
+                }
+               a {
+                    color: grey;
+               }
+               p {
+                   font-size: 11px;
+                   margin-top: 3px;
+               } 
+               a {
+                   margin-left: 51px;
+                   font-size: 10px;
+               }
+            }
+            .r5 {
+                button {
+                    background-color: #0179ff;
+                    color: white;
+                    border: none;
+                    padding: 7px;
+                    width: 100%;
+                    border-radius: 5px;
+                } 
+            }
+            .r6 {
+                margin-top: 12px;
+                text-align: center;
+            }
+            .r7 {
+                i {
+                    margin-right: 5px;
+                }
+                button {
+                    background-color: #3a5999;
+                }
+            }
+            .r8 {
+                margin-top: 5px;
+                i {
+                    margin-right: 5px;
+                }
+                button {
+                    background-color: #1da1f3;
+                }
+            }
+            .r9 {
+                margin-top: 5px;
+                i {
+                    margin-right: 5px;
+                }
+                button {
+                    background-color: #eb4336;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: #04948b;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    
+}
+li {
+    background-color: transparent;
+    margin: 2px 0;
+    display: inline-block;
+    
+}
+ li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 15px;
+     text-decoration: none;
+     font-weight: 800;
+     display: inline-block;
+     margin-left: 40px;
+ }
+ li a:hover {
+background-color: rgb(65, 65, 65);
+color: white;
+display: inline-block;
+ }
+ div i:hover {
+     background-color: black;
+ }
+ #aw {
+     margin-left: 260px;
+ }
+ #img {
+     margin-top: 0;
+     background-size: cover;
+     width: 100%;
+     height: 550px;
+ }
+ #ww {
+     margin-top: 20px;
+     margin-bottom: 40px;
+     margin-left: 30px;
+ }
+#w1 {
+    position: absolute;
+    color: white;
+   margin-top: 220px;
+   background-color: black;
+   opacity: 55%;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   padding-left: 40px;
+   padding-right:40px ;
+   margin-left: 400px;
+}
+#w2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#img1 {
+    width: 30%;
+}
+#img2 {
+    width: 30%;
+}
+#img3 {
+    width: 30%;
+}   
+#div1 {
+position: absolute;
+width: 90%;
+margin-left: 70px;
+}
+#div2 {
+    margin-left: 520px;
+    width: 90%;
+    position: absolute;
+}
+#div3 {
+margin-left: 970px;
+width: 90%;
+}
+ 

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fbd1b8 !important;
+        form {
+           background-color: #000232;
+           height: 430px;
+           width: 300px;
+           position: relative;
+           
+           .fa-lock {
+               position: absolute;
+               margin-top: 51px;
+               margin-left: 15px;
+               color: white;
+           }
+           .fa-user {
+               position: absolute;
+                margin-top: 10px;
+                margin-left: 15px;
+                color: white;
+           }
+           img {
+               width: 300px;
+               overflow: hidden;
+           }
+           p {
+               color: white;
+               text-align: center;
+               font-size: 12px;
+           }
+           h4 {
+               color: white;
+               text-align: center;
+           }
+           input {
+               padding: 3px;
+               padding-left: 25px;
+               margin-bottom: 10px;
+               background-color: transparent;
+               border: none;
+               border-bottom: solid white;
+               width: 100%;
+               outline: none;
+               color: white;
+           } 
+           .r4 {
+               button {
+                   background-color: #b689b0;
+                   color: white;
+                   border: none;
+                   cursor: pointer;
+                   padding: 5px;
+                   width: 275px;
+                   border-radius: 5px;
+               }
+           }
+           .r5 {
+               a {
+                   text-align: center;
+                   text-decoration: none;
+                   color: grey;
+                   font-size: 13px;
+                   display: flex;
+                   justify-content: center;
+                   margin-top: 15px;
+               }
+           }
+           .r6 {
+               a {
+                   text-align: center;
+                   text-decoration: none;
+                   color: grey;
+                   font-size: 13px;
+                   display: flex;
+                   justify-content: center;
+                   margin-top: 5px;
+               }
+           }
+    }
+}

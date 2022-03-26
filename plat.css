@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 19%;
+    height: 400px;
+    position: absolute;
+    margin-left: 360px;
+    opacity: 98%;
+}
+body {
+    background-image: url(polol.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form {
+    background-color: #16292f;
+    opacity: 60%;
+    height: 400px;
+    margin-top: 130px;
+    margin-left: 643px;
+    width: 28%;
+}
+h1 {
+    color: white;
+    margin-left: 170px;
+    position: relative;
+}
+input {
+    margin-left: 90px;
+    background-color: transparent;    
+    width: 62%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-bottom: solid #42797b;
+    color: white;
+}
+#w1 {
+    margin-top: 20px;
+}
+#w2 {
+margin-top: 20px;
+}
+#w3 {
+margin-top: 20px;
+}
+button {
+    margin-left: 163px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 30%;
+    background-color: transparent;
+    border: none;
+    border: solid #0aedf5;
+    color: white;
+    cursor: pointer;
+
+}

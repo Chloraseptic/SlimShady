@@ -1,0 +1,12 @@
+.bottonDiv { 
+    margin-left: 200px;
+    display: inline-block;
+    background-color: green;
+     border: 1px solid rgb(66, 61, 61); 
+    height: 50px;
+    width: 40px;
+}
+.bloki{
+    margin-left: 20px;  
+    display: inline-block;
+}

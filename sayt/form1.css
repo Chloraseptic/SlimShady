@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(http://pix.com.ua/db/nature/trees_leaves/leaves/m-001_099.jpg);
+  height: 100vh;
+  background-size: 50%;
+  background-position: center;
+  margin-left: 100px;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body form {
+  background-color: white;
+  padding: 40px;
+  width: 40%;
+  height: 50%;
+}
+
+body form label {
+  padding: 5px;
+}
+
+body form input {
+  padding: 5px;
+  width: 260px;
+  border-radius: 3px;
+  border: solid #616060 1px;
+}
+
+body form h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+body form .div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body form .div1 .div11 {
+  display: -ms-grid;
+  display: grid;
+}
+
+body form .div1 .div12 {
+  display: -ms-grid;
+  display: grid;
+}
+
+body form .div2 {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body form .div2 .div13 {
+  display: -ms-grid;
+  display: grid;
+}
+
+body form .div2 .div14 {
+  display: -ms-grid;
+  display: grid;
+}
+
+body form .div3 .div15 {
+  display: -ms-grid;
+  display: grid;
+}
+
+body form .div3 .div16 {
+  display: -ms-grid;
+  display: grid;
+}
+
+body form .div3 .div16 .inp {
+  width: 96%;
+}
+
+body form button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  width: 40%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+/*# sourceMappingURL=form1.css.map */

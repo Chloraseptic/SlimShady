@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#ret {
+    background-color: blue;
+    width: 500px;
+    height: 60px;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#id {
+    margin-left: 225px;
+}
+#id1 {
+    margin-left: 500px;
+    background-color: rgb(202, 197, 197);
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}

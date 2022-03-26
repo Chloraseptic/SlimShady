@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
+  height: 100px;
+}
+
+.c1 .row {
+  height: 100px;
+  position: relative;
+}
+
+.c1 .row > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+}
+
+.c1 .row > div :nth-child(1) {
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  background-color: grey !important;
+}
+
+.c1 .row > div > i {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  right: 10px;
+  background-color: rgba(128, 128, 128, 0.582);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: none;
+}
+
+.c1 .row > div > i::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50% -50%);
+          transform: translateY(-50% -50%);
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .c1 .row > div :nth-child(2) {
+    margin-left: 8%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .c1 .row > div > i {
+    display: block !important;
+  }
+}
+/*# sourceMappingURL=sever.css.map */

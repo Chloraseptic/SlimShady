@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #161616;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+body .sun {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: yellow;
+}
+
+body .containerPlanet {
+  position: absolute;
+  border: solid 1px grey;
+  border-radius: 100%;
+}
+
+body .containerPlanet .planet {
+  position: absolute;
+  border-radius: 100%;
+  top: 40%;
+}
+
+body .cp1 {
+  width: 100px;
+  height: 100px;
+  -webkit-animation: animated1 3s linear infinite;
+          animation: animated1 3s linear infinite;
+}
+
+body .cp1 .planet {
+  height: 25px;
+  width: 25px;
+  background-color: orangered;
+  right: -12.5px;
+}
+
+body .cp2 {
+  width: 180px;
+  height: 180px;
+  -webkit-animation: animated1 5s linear infinite;
+          animation: animated1 5s linear infinite;
+}
+
+body .cp2 .planet {
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  right: -12.5px;
+}
+
+body .cp3 {
+  width: 260px;
+  height: 260px;
+  -webkit-animation: animated1 7s linear infinite;
+          animation: animated1 7s linear infinite;
+}
+
+body .cp3 .planet {
+  height: 25px;
+  width: 25px;
+  background-color: green;
+  right: -12.5px;
+}
+
+body .cp4 {
+  width: 340px;
+  height: 340px;
+  -webkit-animation: animated1 9s linear infinite;
+          animation: animated1 9s linear infinite;
+}
+
+body .cp4 .planet {
+  height: 25px;
+  width: 25px;
+  background-color: orangered;
+  right: -12.5px;
+}
+
+body .cp5 {
+  width: 420px;
+  height: 420px;
+  -webkit-animation: animated1 11s linear infinite;
+          animation: animated1 11s linear infinite;
+}
+
+body .cp5 .planet {
+  height: 25px;
+  width: 25px;
+  background-color: orange;
+  right: -12.5px;
+}
+
+body .cp6 {
+  width: 500px;
+  height: 500px;
+  -webkit-animation: animated1 13s linear infinite;
+          animation: animated1 13s linear infinite;
+}
+
+body .cp6 .planet {
+  height: 25px;
+  width: 25px;
+  background-color: #3a3a3a;
+  right: -12.5px;
+}
+
+body .cp7 {
+  width: 580px;
+  height: 580px;
+  -webkit-animation: animated1 15s linear infinite;
+          animation: animated1 15s linear infinite;
+}
+
+body .cp7 .planet {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  right: -12.5px;
+}
+
+body .cp8 {
+  width: 660px;
+  height: 660px;
+  -webkit-animation: animated1 17s linear infinite;
+          animation: animated1 17s linear infinite;
+}
+
+body .cp8 .planet {
+  height: 25px;
+  width: 25px;
+  background-color: lightblue;
+  right: -12.5px;
+}
+
+body .cp9 {
+  width: 740px;
+  height: 740px;
+  -webkit-animation: animated1 19s linear infinite;
+          animation: animated1 19s linear infinite;
+}
+
+body .cp9 .planet {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  right: -10.5px;
+}
+
+@-webkit-keyframes animated1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes animated1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=sun.css.map */

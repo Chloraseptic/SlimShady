@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    form {
+        background-color: #f6f7fc;
+        .container {
+            input {
+                outline: none;
+                padding: 6px;
+                width: 300px;
+                margin-left: 10px;
+                border: solid #c5c6cb 1px;
+            }
+            label {
+                margin-bottom: 5px;
+            }
+            .rr {
+                width: 700px;
+                .ret {
+                    padding: 50px;
+                    .r2 {
+                        pre {
+                            font-size: 11px;
+                            color: #c5c6cb;
+                        }
+                    }
+                    .r4 {
+                        margin-top: 10px;
+                    }
+                    .r5 {
+                        p {
+                            font-size: 13px;
+                            margin-top: 2px;
+                            margin-top: 4px;
+                        }
+                        input {
+                            width: 20px;
+                            margin-left: 0px;
+                            margin-top: 8px;
+                        }
+                        a {
+                            font-size: 12px;
+                            color: grey;
+                            
+                        }
+                    }
+                    .r6 {
+                        button {
+                            background-color: #ff7414;
+                            color: white;
+                            border: none;
+                            cursor: pointer;
+                            border-radius: 5px;
+                            width: 272px;
+                            padding: 7px;
+                        }
+                    }
+                }
+            }
+            .col-6 {
+                img {
+                    width: 350px;
+                }
+            }
+        }
+    }
+}
+

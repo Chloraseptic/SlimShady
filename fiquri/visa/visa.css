@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body .container {
+  width: 400px;
+  border-radius: 10px;
+  background-color: #161a1d;
+}
+
+body .container .r1 h4 {
+  color: white;
+  padding: 20px;
+}
+
+body .container .r1 img {
+  width: 60px;
+  height: 45px;
+  margin-left: 50px;
+}
+
+body .container .r1 .col-4 {
+  margin-top: 20px;
+}
+
+body .container .r2 label {
+  color: #5e5e5e;
+  font-size: 10px;
+  padding: 20px;
+}
+
+body .container .r2 input {
+  color: #dbdbdb;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-left: 20px;
+  width: 400px;
+}
+
+body .container .r2 input::-webkit-input-placeholder {
+  color: #cecece;
+  font-size: 20px;
+}
+
+body .container .r2 input:-ms-input-placeholder {
+  color: #cecece;
+  font-size: 20px;
+}
+
+body .container .r2 input::-ms-input-placeholder {
+  color: #cecece;
+  font-size: 20px;
+}
+
+body .container .r2 input::placeholder {
+  color: #cecece;
+  font-size: 20px;
+}
+
+body .container .r3 p {
+  color: grey;
+  margin: 20px;
+}
+
+body .container .r3 label {
+  color: #474747;
+}
+
+body .container .r3 input {
+  outline: none;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+}
+
+body .container .r3 select {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+body .container .r4 .col-4 {
+  margin-left: 20px;
+}
+
+body .container .r4 .col-3 {
+  margin-left: 15px;
+}
+
+body .container .r4 select {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+body .container .r4 input {
+  background-color: transparent;
+  width: 46px;
+  margin-left: 85px;
+  border: none;
+  color: white;
+}
+
+body .container .r4 input::-webkit-input-placeholder {
+  color: #b9b9b9;
+}
+
+body .container .r4 input:-ms-input-placeholder {
+  color: #b9b9b9;
+}
+
+body .container .r4 input::-ms-input-placeholder {
+  color: #b9b9b9;
+}
+
+body .container .r4 input::placeholder {
+  color: #b9b9b9;
+}
+/*# sourceMappingURL=visa.css.map */

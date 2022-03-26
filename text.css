@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+form {
+    margin-left: 450px;
+    margin-top: 220px;
+}
+input {
+    border-radius: 4px;
+    background-color: transparent;
+    border: solid grey 1px ;
+    height: 20px;
+    width: 300px;
+    margin-top: 10px;
+    padding: 5px;
+}
+textarea {
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 300px;
+    background-color: transparent;
+    padding: 5px;
+}
+button {
+    cursor: pointer;
+    width: 313px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(24, 88, 228);
+}
+i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+form .class {
+    position: absolute;
+
+}
+#div {
+    display: flex;
+    margin-left: 350px;
+}
+#div1 {
+    display: flex;
+    margin-left: 350px;
+    margin-top: 25px;
+}
+#div2 {
+    display: flex;
+    margin-left: 350px;
+    margin-top: 25px;
+}
+hr {
+    width: 210px;
+    margin-top: 25px;
+    margin-left: 350px;
+}
+p {
+    color: gray;
+    margin-left: 20px;
+}
+#diver {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#ider {
+   padding: 8px;
+    font-size: 35px;
+}
+#diver1 {
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 170px;
+}
+#hr {
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 388px;
+}
+#p1 {
+    position: absolute;
+    font-size: 10px;
+    margin-left: 420px;
+    margin-top: 245px;
+}
+

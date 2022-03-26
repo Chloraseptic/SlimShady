@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 15;
+    overflow: hidden;
+    background-color: rgb(182, 181, 181);
+    display: inline-block;
+    position: sticky;
+    top: 5px;
+    
+}
+@media only screen and (max-width: 500px) {
+
+}
+li {
+    background-color: transparent;
+    margin: 2px 0;
+    display: inline-block;
+}
+ li a {
+     width: 300px;
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 15px;
+     text-decoration: none;
+     font-weight: 800;
+     display: inline-block;
+ }
+ li a:hover {
+background-color: rgb(80, 78, 78);
+color: white;
+display: inline-block;
+transition: 0.5s;
+ }

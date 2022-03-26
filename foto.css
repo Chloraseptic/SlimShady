@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+form {
+   position: absolute;
+    margin-top: 15%;
+    margin-left: 33%;
+}
+h2 {
+    color: rgb(26, 26, 128);
+}
+#ww {
+    padding: 5px;
+    width: 200px;
+    border: none;
+    border: solid 2px;
+    border-color:  grey;
+}
+#w1 {
+    padding: 5px;
+    margin-top: 10px;
+    width: 200px;
+    border: none;
+    border: solid 2px;
+    border-color:  grey;
+}
+a {
+   font-size: 10px;
+   margin-left: 120px;
+}
+button {
+    padding: 7px;
+    width: 217px;
+    margin-top: 7px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+p {
+    font-size: 12px;
+}

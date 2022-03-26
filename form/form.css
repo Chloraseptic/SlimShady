@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #6645ea !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body form {
+  background-color: white;
+  padding: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+body form .container input {
+  padding: 7px;
+  margin-top: 10px;
+  outline: none;
+  width: 350px;
+}
+
+body form .container .r1 p {
+  font-size: 21px;
+}
+
+body form .container .r2 {
+  margin-bottom: 10px;
+}
+
+body form .container .r2 .blue {
+  background-color: #6548d8;
+  height: 5px;
+  border-radius: 8px;
+}
+
+body form .container .r2 .grey {
+  background-color: #e6e6e6;
+  height: 5px;
+  border-radius: 8px;
+}
+
+body form .container .r7 {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-top: 10px;
+}
+
+body form .container .r7 button {
+  padding: 10px;
+  background-color: #6200e9;
+  color: white;
+  border: none;
+  border: 3px;
+  width: 100px;
+}
+
+body form i {
+  font-size: 20px;
+  color: white;
+  z-index: 2;
+}
+/*# sourceMappingURL=form.css.map */

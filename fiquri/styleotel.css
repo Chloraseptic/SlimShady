@@ -1,0 +1,16 @@
+.mainDiv{
+    display: flex;
+    justify-content: space-around;
+
+}
+.imgDiv img{
+    height: 147px;
+    width: 147px;
+
+}
+.buttonDiv { 
+    background-color: rgb(0, 204, 255);
+     border: 1px solid grey; 
+    height: 50px;
+    width: 20px;
+}

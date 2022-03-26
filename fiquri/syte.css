@@ -1,0 +1,14 @@
+@import url(header.css);
+@import url(container.css);
+@import url(icons.css);
+@import url(head.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+#firstDiv {
+    height: 100vh;
+    background-image: url(https://i.picsum.photos/id/961/2560/1707.jpg?hmac=ydN0DBmGGXSvkgim5jkZHPrS3UCgLe11ftEQV3yYLmo);
+   background-repeat: no-repeat;
+   background-size: cover;
+}

@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#bert:focus{
+    outline-color: lightblue;
+   
+  }
+  #bert3:hover{
+     outline-color: lightblue;
+  }

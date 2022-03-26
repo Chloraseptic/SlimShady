@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #c5cbeb;
+}
+
+body form {
+  background-color: white;
+  padding: 20px;
+  width: 700px;
+}
+
+body form .container p {
+  text-align: center;
+}
+
+body form .container input {
+  border: none;
+  outline: none;
+}
+
+body form .container img {
+  width: 135px;
+  height: 30px;
+}
+
+body form .container .r1 {
+  margin-bottom: 10px;
+}
+
+body form .container .r1 .col-md-3 {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 1px;
+  width: 163px;
+}
+
+body form .container .r1 .col-md-3 :hover {
+  border: solid blue 2px;
+}
+
+body form .container .r2 {
+  border: solid grey 2px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+body form .container .r2 input {
+  width: 100%;
+}
+
+body form .container .r3 {
+  border: solid grey 2px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+body form .container .r4 {
+  margin-bottom: 10px;
+}
+
+body form .container .r4 #w1 {
+  border-radius: 5px;
+  border: solid grey 2px;
+  width: 327px;
+}
+
+body form .container .r4 #w2 {
+  border-radius: 5px;
+  border: solid grey 2px;
+  margin-left: 5px;
+  width: 327px;
+}
+
+body form .container .r5 button {
+  width: 637px;
+  background-color: #1818e0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=lye.css.map */

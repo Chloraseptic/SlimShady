@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#regh{
+    margin-left: 450px;
+    margin-top: 150px;
+    background-color: rgb(211, 211, 216);
+    height: 300px;
+    width: 500px;
+}
+#rew{
+    margin-top: 10px;
+    padding: 10px 60px 10px 60px;
+    
+}
+#rew:hover {
+    background-color: green !important;
+}
+
+#yur {
+    margin-left: 245px;
+}
+#nan {
+    margin-left: 100px;
+}
+#non {
+    margin-left: 17px;
+}
+#rgh{
+    margin-left: 70px;
+}
